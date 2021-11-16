@@ -53,7 +53,7 @@ class Creator extends React.Component {
         />
         <div className={styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown : '')}>
           <Button onClick={this.handleOK}>OK</Button>
-          <Button onClick={this.handleCancel} variant='danger'>cancel</Button>
+          <Button onClick={() => {if(window.confirm('Are you sure?')){this.handleCancel()};}} variant='danger'>cancel</Button>
         </div>
       </div>
     );
