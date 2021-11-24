@@ -10,7 +10,7 @@ const Button = ({variant = '', ...otherProps}) => (
 );
 Button.propTypes = {
   button: PropTypes.elementType,
-  variant: PropTypes.func,
+  variant: PropTypes.node,
 };
 
 export default Button;
