@@ -14,6 +14,20 @@ export const settings = {
   defaultColumnIcon: 'list-alt',
 };
 
+export const infoPage = {
+  navText: 'Info',
+  navTitle: 'Info',
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
+export const faqPage = {
+  navText: 'FAQ',
+  navTitle: 'FAQ',
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu risus, finibus vitae elementum vitae, cursus ut nisi. Aliquam mattis sem eget risus vulputate, eget interdum sem laoreet. Phasellus efficitur convallis nibh. Mauris finibus neque suscipit tristique cursus. Curabitur quis ligula enim. Etiam non libero quis purus porta ultrices. Sed consectetur, nulla sit amet tempor aliquet, orci neque maximus massa, et blandit magna quam quis nunc.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
