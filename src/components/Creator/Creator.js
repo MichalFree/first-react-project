@@ -8,17 +8,17 @@ class Creator extends React.Component {
   static propTypes = {
     text: PropTypes.string,
     action: PropTypes.func,
-  }
+  };
 
   static defaultProps = {
     text: 'Add new item',
     action: settings.buttonOK,
-  }
+  };
 
   state = {
     value: '',
     visibleButtons: false,
-  }
+  };
 
   handleChange = event => {
     // console.log(event);
@@ -26,7 +26,7 @@ class Creator extends React.Component {
       value: event.target.value,
       visibleButtons: event.target.value.length > 0,
     });
-  }
+  };
 
   handleOK = () => {
     if(this.state.value != ''){
@@ -36,14 +36,14 @@ class Creator extends React.Component {
         visibleButtons: false,
       });
     }
-  }
+  };
 
   handleCancel = () => {
     this.setState({
       value: '',
       visibleButtons: false,
     });
-  }
+  };
 
   render() {
     return (
