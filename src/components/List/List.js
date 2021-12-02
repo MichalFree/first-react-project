@@ -15,10 +15,10 @@ class List extends React.Component {
     description: PropTypes.node,
     columns: PropTypes.array,
     addColumn: PropTypes.func,
-  }
+  };
   static defaultProps = {
     description: settings.defaultListDescription,
-  }
+  };
   render() {
     const {title, image, description, columns, addColumn} = this.props;
     return (

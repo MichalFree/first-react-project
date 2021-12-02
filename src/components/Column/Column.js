@@ -12,10 +12,10 @@ class Column extends React.Component {
     icon: PropTypes.node,
     cards: PropTypes.node,
     addCard: PropTypes.func,
-  }
+  };
   static defaultProps = {
     icon: settings.defaultColumnIcon,
-  }
+  };
   render() {
     const {title, icon, cards, addCard} = this.props;
     return (
